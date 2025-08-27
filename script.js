@@ -7,6 +7,14 @@ for (const heart of hearts) {
     })
 }
 
-
+const clickCount = document.getElementById('copied')
+const copies = document.querySelectorAll('.click-to-copy')
+for (const copy of copies){
+    copy.addEventListener('click',function(){
+        let count = parseInt(clickCount.innerText)
+        clickCount.innerText = count + 1
+        
+    })
+}
 
 
