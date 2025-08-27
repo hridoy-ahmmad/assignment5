@@ -13,17 +13,17 @@
 </head>
 
 <body class="bg-[#F5FFF6]">
-    <nav class="max-w-[1800px] flex flex-col items-center justify-between mx-auto bg-white px-[60px] py-6 sm:flex-row">
+    <nav class="max-w-[1800px] flex flex-col items-center justify-between mx-auto bg-white px-[60px] py-6 sm:flex-row sticky top-0">
         <div class="flex gap-3 items-center cursor-pointer">
             <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]">
             <h1 class="text-[#006747] font-extrabold text-[22px]">Emergency <br> Service</h1>
         </div>
         <div class="flex gap-5">
             <p class="flex gap-3 px-6 py-3 bg-[#41ff6a25] rounded-full items-center"><span
-                    class="text-[16px] font-extrabold">0</span><img src="./assets/heart.png" alt=""
+                    class="text-[16px] font-extrabold " id="heart-received">100</span><img src="./assets/heart.png" alt=""
                     class="h-[30px] w-[30px]"></p>
             <p class="flex gap-3 px-6 py-3 bg-[#41ff6a25] rounded-full items-center"><span
-                    class="text-[16px] font-extrabold">0</span><img src="./assets/coin.png" alt=""
+                    class="text-[16px] font-extrabold">100</span><img src="./assets/coin.png" alt=""
                     class="h-[30px] w-[30px]"></p>
             <button
                 class="flex gap-2 px-[35px] py-[14px] items-center bg-[#00A63E] rounded-full text-white font-bold cursor-pointer"><span>2</span>Copy</button>
@@ -47,7 +47,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/emergency.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img  src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">National Emergency Number</h1>
@@ -70,7 +70,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/police.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Police Helpline Number</h1>
@@ -92,7 +92,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/fire-service.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Fire Service Number</h1>
@@ -115,7 +115,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/ambulance.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Ambulance Service</h1>
@@ -138,7 +138,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/women.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Women & Child Helpline</h1>
@@ -160,7 +160,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/women.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Anti-Corruption Helpline</h1>
@@ -182,7 +182,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/women.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Electricity Helpline</h1>
@@ -200,11 +200,11 @@
 
                 </div>
             </div>
-            <!--  -->
+            <!-- brac -->
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/brac.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Brac Helpline</h1>
@@ -227,7 +227,7 @@
             <div class="bg-white p-8 rounded-xl flex flex-col gap-4">
                 <div class="flex items-center justify-between">
                     <img src="./assets/Bangladesh-Railway.png" alt="" class="size-[60px]">
-                    <img src="./assets/heart2.png" alt="" class="cursor-pointer">
+                    <img src="./assets/heart2.png" alt="" class="cursor-pointer heart">
                 </div>
                 <div>
                     <h1 class="text-[24px] font-bold">Bangladesh Railway Helpline</h1>
