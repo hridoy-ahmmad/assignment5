@@ -7,10 +7,21 @@
     <title>Emergency Hotline</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
 </head>
 
-<body>
+<body class="bg-[#F5FFF6]">
+    <nav class="max-w-[1800px] flex flex-col items-center justify-between mx-auto bg-white px-[60px] py-6 sm:flex-row">
+        <div class="flex gap-3 items-center cursor-pointer">
+            <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px]">
+            <h1 class="text-[#006747] font-extrabold text-[22px]">Emergency <br> Service</h1>
+        </div>
+        <div class="flex gap-5">
+            <p class="flex gap-3 px-6 py-3 bg-[#41ff6a25] rounded-full items-center"><span class="text-[16px] font-extrabold">0</span><img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]"></p>
+            <p class="flex gap-3 px-6 py-3 bg-[#41ff6a25] rounded-full items-center"><span class="text-[16px] font-extrabold">0</span><img src="./assets/coin.png" alt="" class="h-[30px] w-[30px]"></p>
+            <button class="flex gap-2 px-[35px] py-[14px] items-center bg-[#00A63E] rounded-full text-white font-bold cursor-pointer"><span>2</span>Copy</button>
+        </div>
+    </nav>
+
 
     <script src="script.js"></script>
 </body>
