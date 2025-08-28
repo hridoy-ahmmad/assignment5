@@ -72,7 +72,7 @@ for (const call of calls) {
         let currentLife = parseInt(lifeElement.innerText); 
 
         if (currentLife <= 0) {
-            alert("You don't have coin");
+            alert("You don't have coin.You are unable to call");
             return; 
         }
 
@@ -88,7 +88,7 @@ for (const call of calls) {
         const numberElement = card.querySelector("p.copy-number");
         const number = numberElement ? numberElement.innerText.trim() : "No Number";
 
-        alert(`Call ${heading}: ${number}`);
+        alert(`Calling ${heading}: ${number}`);
     });
 }
 
